@@ -1,0 +1,28 @@
+h1{
+    font-size: 3rem;
+    color: #222;
+    text-shadow: 20px 20px 20px #222;
+    font-family:'Courier New', Courier, monospace;
+}
+.header_container{
+    box-shadow: 20px 20px 20px #222;
+}
+.header_info{
+    display: flex;
+    justify-content: center;
+}
+.header_info ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.header_info li{
+    list-style: none;
+    margin:0 10px;
+}
+.header_info li:hover{
+    text-decoration: underline;
+    font-size: 1.125rem;
+    font-weight: bold;
+    cursor: pointer;
+}
